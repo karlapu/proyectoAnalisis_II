@@ -1,5 +1,7 @@
 package proyecto.backend.model.repository;
 
-public interface RoleRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import proyecto.backend.model.entity.Role;
 
+public interface RoleRepository extends JpaRepository<Role, Integer> {
 }

@@ -1,5 +1,7 @@
 package proyecto.backend.model.repository;
 
-public interface StatusUsuarioRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import proyecto.backend.model.entity.StatusUsuario;
 
+public interface StatusUsuarioRepository extends JpaRepository<StatusUsuario, Integer> {
 }

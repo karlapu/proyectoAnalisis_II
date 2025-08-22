@@ -1,5 +1,8 @@
 package proyecto.backend.model.repository;
 
-public interface EmpresaRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import proyecto.backend.model.entity.Empresa;
+
+public interface EmpresaRepository extends JpaRepository<Empresa, Integer> {
 
 }
